@@ -7,6 +7,7 @@ import { SCREENS } from "../responsive";
 import menuStyles from "./menuStyles";
 
 const ListContainer = styled.ul`
+  
   ${tw`
     flex
     list-none
@@ -14,6 +15,8 @@ const ListContainer = styled.ul`
 `;
 
 const NavItem = styled.li<{ menu?: any }>`
+  
+  
   ${tw`
     text-sm
     md:text-base
